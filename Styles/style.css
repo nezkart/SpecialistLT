@@ -716,6 +716,7 @@ ul {
 }
 
 #section6 {
+  width: calc(1920px - (100vw - 100%) / 2);
   background-color: #005098;
   overflow: none;
   position: relative;
@@ -1215,5 +1216,62 @@ input[type="radio"] {
   background: red;
   height: 100wh;
   opacity: 0;
+}
+
+footer {
+  background-color: #1C1C1B;
+  height: 348px;
+  width: calc(1920px - (100vw - 100%) / 2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 32px;
+}
+
+footer h2 {
+  width: 600px;
+  color: white;
+  height: 108px;
+  font-weight: 800;
+  font-size: 52px;
+  line-height: 54px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 12px;
 }
 /*# sourceMappingURL=style.css.map */
