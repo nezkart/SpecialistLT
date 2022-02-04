@@ -489,6 +489,94 @@ ul {
   }
 }
 
+#section4 {
+  padding: 0 191px 126px 168px;
+  height: 678px;
+  
+  .content-bottom {
+    display: flex;
+
+    .fact-list {
+      display: flex;
+      gap: 120px;
+      position: absolute;
+      top: 460px;
+      left: 168px;
+      width: 1561px;
+      justify-content: center;
+    }
+
+    .fact-item {
+    }
+
+    .fact-item p:first-child {
+      color: #003F7E;
+      font-size: 18px;
+      line-height: 22px;
+      letter-spacing: 0.02em;
+      margin: 16px 0;
+      white-space: nowrap;
+      position: relative;
+    }
+
+    .fact-item p:first-child:after {
+      content: "";
+      background: black;
+      position: absolute;
+      top: 30px;
+      left: 0;
+      width: 97px;
+      height: 1px;
+    }
+
+    .fact-item p:nth-child(2) {
+      font-family: Montserrat, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 36px;
+      letter-spacing: 0.02em;
+      color: #003F7E;
+      display: flex; // to make smaller text after large digits not go on a newline
+      gap: 8px;
+    }
+
+    .fact-item p:nth-child(2) span {
+      font-size: 18px;
+      font-family: Nunito Sans;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 22px;
+      letter-spacing: 0.02em;
+    }
+  }
+
+  h2 {
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 54px;
+  }
+
+  h4 {
+    font-weight: 400;
+    width: 741px;
+    height: 140px;
+    transform: translateY(32px);
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #1C1C1B;
+  }
+
+  .content-right {
+    position: absolute;
+    right: 320px;
+    top: 144px;
+  }
+}
+
 #section6 {
   background-color: $colored;
 }
