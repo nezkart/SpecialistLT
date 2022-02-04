@@ -43,7 +43,7 @@
                     <figure class="js-slider_item img-3">
                         <div class="js-slider_img">
                             <img class="c-img-h-full" src="Images/hero-slide3.png" alt=""></div>
-                   </figure>
+                    </figure>
                     <figure class="js-slider_item img-4">
                         <div class="js-slider_img">
                             <img class="c-img-h-full" src="Images/hero-slide4.png" alt=""></div>
@@ -51,7 +51,7 @@
                     <figure class="js-slider_item img-5">
                         <div class="js-slider_img">
                             <img class="c-img-h-full" src="Images/hero-slide5.png" alt=""></div>
-                   </figure>
+                    </figure>
                     <div class="js-slider_nav">
                         <label class="js-slider_nav_item s-nav-1 prev" for="s-5"></label>
                         <label class="js-slider_nav_item s-nav-1 next" for="s-2"></label>
@@ -98,14 +98,20 @@
                     <label for="phone">Tel. numeris</label>
                     <input type="text" id="phone" name="phone" placeholder="Lorem ipsum"><br>
 
-                    <input type="radio" id="choice1" name="work-sphere" value="gamybos-imone">
-                    <label for="choice1">Gamybos įmonė</label>
-                    <input type="radio" id="choice2" name="work-sphere" value="mazmenine-imone">
-                    <label for="choice2">Mažmėninė įmonė</label>
-                    <input type="radio" id="choice3" name="work-sphere" value="statybos-imone">
-                    <label for="choice3">Statybos įmonė</label>
-                    <input type="radio" id="choice4" name="work-sphere" value="projektine-veikla">
-                    <label for="choice4">Projektinė veikla</label><br>
+                    <p>Pasirinkite sritį:</p>
+
+                    <ul>
+                        <li>
+                            <input type="radio" id="choice1" name="work-sphere" value="gamybos-imone">
+                            <label class="radio-lbl" for="choice1">Gamybos įmonė</label></li>
+                        <li><input type="radio" id="choice2" name="work-sphere" value="mazmenine-imone">
+                            <label class="radio-lbl" for="choice2">Mažmėninė įmonė</label></li>
+                        <li><input type="radio" id="choice3" name="work-sphere" value="statybos-imone">
+                            <label class="radio-lbl" for="choice3">Statybos įmonė</label></li>
+                        <li><input type="radio" id="choice4" name="work-sphere" value="projektine-veikla">
+                            <label class="radio-lbl" for="choice4">Projektinė veikla</label></li><br>
+
+                    </ul>
 
                     <input type="checkbox" id="accept" name="accept" value="Accept">
                     <label for="accept">*Sutinkate su privatumo politika ir naujienlaiškių užsakymu</label><br>
@@ -197,19 +203,39 @@
                 <label for="email">El. paštas</label>
                 <input type="text" id="email" name="email" placeholder="Lorem ipsum">
                 <label for="phone">Tel. numeris</label>
-                <input type="text" id="phone" name="phone" placeholder="Lorem ipsum"><br>
+                <input type="text" id="phone" name="phone" placeholder="Lorem ipsum">
 
-                <input type="radio" id="choice1" name="work-sphere" value="gamybos-imone">
-                <label for="choice1">Gamybos įmonė</label>
-                <input type="radio" id="choice2" name="work-sphere" value="mazmenine-imone">
-                <label for="choice2">Mažmėninė įmonė</label>
-                <input type="radio" id="choice3" name="work-sphere" value="statybos-imone">
-                <label for="choice3">Statybos įmonė</label>
-                <input type="radio" id="choice4" name="work-sphere" value="projektine-veikla">
-                <label for="choice4">Projektinė veikla</label><br>
+                <label>Pasirinkite sritį:</label>
+                <!-- 
+                <div class="radio-pills">
+                    <span><input type="radio" id="choice1" name="work-sphere" value="gamybos-imone"><label
+                            for="choice1">Gamybos įmonė</label></span>
+                    <span><input type="radio" id="choice2" name="work-sphere" value="mazmenine-imone"><label for="choice2">Mažmėninė įmonė</label></span>
+                    
+                    <span><input type="radio" id="choice3" name="work-sphere" value="statybos-imone"><label for="choice3">Statybos įmonė</label></span>
+                    
+                    <span><input type="radio" id="choice4" name="work-sphere" value="projektine-veikla"><label for="choice4">Projektinė veikla</label></span>
+                    
+                    </div> -->
+
+
+                <ul class="radio-pills">
+                    <li class="pill"><input type="radio" id="choice1" name="work-sphere" value="gamybos-imone"><label
+                            for="choice1">Gamybos įmonė</label></span></li>
+                    <li class="pill"><input type="radio" id="choice2" name="work-sphere" value="mazmenine-imone"><label
+                            for="choice2">Mažmėninė įmonė</label></li>
+
+                    <li class="pill"><input type="radio" id="choice3" name="work-sphere" value="statybos-imone"><label
+                            for="choice3">Statybos įmonė</label></li>
+
+                    <li class="pill"><input type="radio" id="choice4" name="work-sphere"
+                            value="projektine-veikla"><label for="choice4">Projektinė veikla</label>></li>
+
+                </ul>
 
                 <input type="checkbox" id="accept" name="accept" value="Accept">
-                <label for="accept">*Sutinkate su privatumo politika ir naujienlaiškių užsakymu</label><br>
+                <label for="accept" id="accept-text">*Sutinkate su privatumo politika ir naujienlaiškių
+                    užsakymu</label><br>
 
                 <input type="submit" value="Gauti specialų pasiūlymą">
             </form>
