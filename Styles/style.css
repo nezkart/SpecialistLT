@@ -1090,6 +1090,7 @@ input[type="radio"] {
   top: 67px;
   left: 49.2vw;
   margin: 0 auto;
+  background-color: red;
 }
 
 .js-slider_item {
@@ -1123,12 +1124,15 @@ input[type="radio"] {
 }
 
 .js-slider_img {
-  width: calc(1920px / 2);
-  height: 1080px;
+  width: calc(50vw + 20px);
+  height: calc(100% + 32px) !important;
   left: 0;
   height: 100%;
-  width: 100%;
+  top: 0;
+  margin-top: -32px;
   overflow: hidden;
+  -webkit-transform: translate(-58px, 16px);
+          transform: translate(-58px, 16px);
 }
 
 .js-slider_img .image-slide-logo {
@@ -1151,12 +1155,11 @@ input[type="radio"] {
 
 .c-img-h-full {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 100%;
-  height: 100%;
-  -webkit-transform: translate3d(-50%, -50%, 0);
-          transform: translate3d(-50%, -50%, 0);
+  top: -50px;
+  min-width: 55vw;
+  min-height: 105%;
+  -webkit-transform: translate(10px, 10px);
+          transform: translate(10px, 10px);
 }
 
 .view-sm {
@@ -1660,6 +1663,51 @@ footer a {
 }
 
 @media all and (max-width: 550px) {
+  .js-slider {
+    position: absolute;
+    background-color: blue;
+  }
+  .js-slider_item {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 1rem 3rem;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform-origin: right center;
+            transform-origin: right center;
+    -webkit-transition: all 1s ease, -webkit-transform 1s cubic-bezier(0.43, 0.28, 0.51, 1);
+    transition: all 1s ease, -webkit-transform 1s cubic-bezier(0.43, 0.28, 0.51, 1);
+    transition: all 1s ease, transform 1s cubic-bezier(0.43, 0.28, 0.51, 1);
+    transition: all 1s ease, transform 1s cubic-bezier(0.43, 0.28, 0.51, 1), -webkit-transform 1s cubic-bezier(0.43, 0.28, 0.51, 1);
+  }
+  .js-slider_img {
+    width: 100vw !important;
+    left: 0;
+    height: 100%;
+    top: 0;
+    margin-top: -32px;
+    overflow: hidden;
+    -webkit-transform: translate(-58px, 16px);
+            transform: translate(-58px, 16px);
+  }
+  .js-slider_img .image-slide-logo {
+    position: absolute !important;
+    bottom: 50px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .c-img-h-full {
+    position: absolute;
+    top: -200px;
+    min-width: 55vw;
+    min-height: 105%;
+    -webkit-transform: translate(10px, 10px);
+            transform: translate(10px, 10px);
+  }
   ul + input {
     -webkit-transform: translateY(-20px);
             transform: translateY(-20px);
