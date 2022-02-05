@@ -10,7 +10,7 @@ $button-bg-color: #E4002B;
 }
 
 %section1-settings {
-  
+
 }
 
 $default-font: 'Nunito Sans', sans-serif;
@@ -31,10 +31,7 @@ body {
 ul {
   list-style-type: none;
   @extend %ul-settings;
-  // width: 60%;
-  // display: flex !important;
   left: 21% !important;
-  // flex-wrap: wrap;
 }
 
 ul li {}
@@ -55,37 +52,21 @@ ul li {}
   width: calc(100vw - (100vw - 100%) / 2);
 
   .content-right {
-    /*width: calc(100vw - (100vw - 100%));*/
-    /*height: 1080px;*/
-    /*height: 1080px;*/
     position: absolute;
     width: 960px;
     height: 1147.32px;
-    // left: calc(50% - 960px/2 + 480px - (100vw - 100%) / 2); //  - (100vw - 100%) / 2) to fix horizontal scrollbar appearing
     top: calc(50% - 1147.32px/2 - 33.35px);
-    /*background-image: url(../Images/stanley-fatmax.png);*/
     @extend %background-settings;
   }
 
 
   height: 1080px;
 
-  .content-right {
-    /*overflow: hidden;
-        
-        height: 1080px;
-        position: absolute;
-        right: 0;
-        width: 50%;*/
-  }
 
   background-color: white;
 
   .content-left {
     padding: 168px;
-    /*
-        flex: none;
-        order: 0;*/
     width: 41.30%;
     position: absolute;
     box-sizing: content-box; // fix misaligned text by removing border-box //
@@ -129,7 +110,6 @@ ul li {}
       height: 65px;
       width: 411px;
       padding: 16px 24px;
-      // position: static;
       position: absolute;
       top: 830px;
       transform: translateX(-110px);
@@ -143,7 +123,6 @@ ul li {}
 
 .container {
   img {
-    /*display: block;*/
   }
 
   width: calc(100vw - (100vw - 100%) * 2);
@@ -156,8 +135,6 @@ ul li {}
   width: calc(100vw - (100vw - 100%) / 2);
 
   .content-left {
-    // position: absolute;
-    // width: 960px;
     width: 49.2vw;
     height: 909px;
     left: calc(50% - 960px/2 - 480px);
@@ -181,7 +158,6 @@ ul li {}
     position: absolute;
     right: 0;
     height: 100%;
-    // left: 960px;
     left: 46vw;
 
     img {
@@ -235,26 +211,7 @@ ul li {}
   height: 1041px;
 
   input {
-    // background-color: white;
-    // // display: flex;
-    // // flex-direction: row;
-    // // align-items: flex-start;
-    // padding: 8px 24px;
-    // position: absolute;
-    // width: 304px;
-    // height: 38px;
-    // left: 0px;
-    // top: 30px;
-    // border-radius: 30px;
-    // color: #1C1C1B;
-
-    // width: 100%;
-    // padding: 12px;
-    // border-radius: 4px;
-    // box-sizing: border-box;
-    // margin-top: 10px;
-    // margin-bottom: 20px;
-    // resize: vertical;
+    
   }
 
   .content-left {
@@ -269,13 +226,11 @@ ul li {}
       float: right;
       position: absolute;
       bottom: 117px;
-      // left: 24px;
       left: 5%;
     }
 
     input[type=submit] {
       position: absolute;
-      // bottom: 112px;
       bottom: 0;
       width: 435px;
       height: 65px;
@@ -294,7 +249,6 @@ ul li {}
     }
 
     input[type=text] {
-      // width: 624px;
       width: 103%;
       height: 38px;
       border-radius: 30px;
@@ -303,9 +257,7 @@ ul li {}
     }
 
     input:nth-of-type(-n+2) {
-      // width: 304px;
       width: 50%;
-      // left: 318px;
       left: 53%;
     }
 
@@ -319,7 +271,6 @@ ul li {}
 
     label:nth-of-type(2) {
       position: absolute;
-      // left: 320px;
       left: 53%;
       top: 0;
     }
@@ -411,23 +362,15 @@ ul li {}
       flex-wrap: wrap;
       height: 100%;
       padding: 0;
-      // width: 50%;
       width: 50% !important;
-      // display: flex;
-      // flex-wrap: wrap;
-      // flex-direction: column;
       position: absolute;
       top: 360px;
-      // left: 168px;
       left: 8.75vw;
-      // width: 624px;
       width: 36% !important;
       height: 601px;
       color: white;
     }
 
-    // display: flex;
-    // flex-direction: column;
 
     p {
       width: 624px;
@@ -449,7 +392,6 @@ ul li {}
     p:first-child {
       position: absolute;
       top: 112px;
-      // left: 168px;
       left: 9%;
       height: 108px;
       width: 624px;
@@ -475,7 +417,6 @@ ul li {}
       margin: 16px 0;
       position: absolute;
       top: 252px;
-      // left: 168px;
       left: 9%;
       text-transform: none;
     }
@@ -503,14 +444,10 @@ ul li {}
 
     .fact-list {
       display: flex;
-      // gap: 10px !important;
-      // gap: 9.2rem;
       gap: 10px;
       position: absolute;
       top: 470px;
-      // left: 168px;
       left: 8.8%;
-      // width: 1561px;
       width: 84%;
       justify-content: space-between;
     }
@@ -594,7 +531,6 @@ ul li {}
     background-image: url(../Images/closeup-man2.png);
     @extend %background-settings;
     height: 1046px;
-    // width: 872px;
     width: 45%;
     position: absolute;
     top: 144px;
@@ -636,11 +572,6 @@ ul li {}
     }
 
     .fact-list-2 {
-      // display: flex;
-      // gap: 120px;
-      // position: absolute;
-      // right: 0;
-      // justify-content: center;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr;
@@ -724,10 +655,7 @@ ul li {}
 
   ul+input {
     position: absolute;
-    // left: 0;
-    // transform: scale(3);
     width: auto;
-    // height: 5px;
     background-color: red;
     left: 5%;
     top: 147px !important;
@@ -746,8 +674,6 @@ ul li {}
     align-content: flex-start;
     gap: 24px;
     left: 1112px !important;
-    // width: 1550px !important;
-    // max-width: 55% !important;
 
     p {
       margin-top: -45px !important; // move 'Pasirinkite sriti' above radio pills
@@ -765,7 +691,6 @@ ul li {}
 
   input[type=submit] {
     position: absolute;
-    // bottom: 112px;
     bottom: 375px;
     width: 411px;
     height: 65px;
@@ -795,7 +720,6 @@ ul li {}
     border-radius: 30px;
     border: none;
     padding: 8px 24px;
-    // width: 376px !important;
     width: 100%;
   }
 
@@ -894,13 +818,10 @@ ul li {}
       height: 22px;
     }
 
-    // width: 1580px !important;
     height: 100%;
     padding: 0;
     position: absolute;
-    // left: calc(50% + 14px) !important;
     left: 8.9% !important;
-    // transform: translateX(-50%);
     top: 360px;
     height: 601px;
     color: white;
@@ -962,8 +883,6 @@ ul li {}
 // checkbox positioning
 ul:nth-of-type(1)+input {
   position: absolute;
-  // left: 0;
-  // width: auto;
   background-color: red;
   left: 0;
   top: 460px !important;
@@ -980,11 +899,8 @@ ul:nth-of-type(1)+input {
 // checkbox positioning form 2
 ul+input {
   position: absolute;
-  // left: 0;
-  // width: auto;
   background-color: red;
   left: 0 !important;
-  // top: 100px !important;
 }
 
 // checkbox label positioning form 2
@@ -1029,15 +945,8 @@ input[type="radio"] {
 
 .js-slider {
   position: absolute;
-  // width: 80%;
-  // width: 100%;
-  // width: 960px;
-  // width: 951px; // 951px instead of 960px to fix horizontal scrollbar appearing
-  // height: 100%;
   width: 50vw;
-  // height: calc(50vw * 1.125);
   height: 1080px;
-  // left: 951px;
   top: 67px;
   left: 49.2vw;
   margin: 0 auto;
@@ -1053,7 +962,6 @@ input[type="radio"] {
   opacity: 0;
   visibility: hidden;
   transform-origin: right center;
-  // transform: translate3d(0%, 0%, 0) rotateY(30deg) scaleX(0.95);
   transition: all 1s ease, transform 1s cubic-bezier(0.43, 0.28, 0.51, 1);
 }
 
@@ -1128,10 +1036,7 @@ input[type="radio"] {
   display: none;
   width: 4rem;
   height: 4rem;
-  // border: 1px solid #e60012;
-  // border-radius: 50%;
   cursor: pointer;
-  // transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
   background-image: url(../Images/hero-slide-arrow.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -1147,7 +1052,6 @@ input[type="radio"] {
   background-color: #e60012;
   transform-origin: left bottom;
   transform: translate3d(0, -50%, 0) rotate(-45deg);
-  // transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .js-slider_nav_item:hover {}
@@ -1202,14 +1106,11 @@ input[type="radio"] {
 }
 
 .js-slider-indi:hover:after {
-  // transform: translate3d(-50%, -50%, 0) scale(1.5);
-  // transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 #s-1:checked~.js-slider .js-slider_indicator .indi-1:after,
 #s-2:checked~.js-slider .js-slider_indicator .indi-2:after,
 #s-3:checked~.js-slider .js-slider_indicator .indi-3:after {
-  // transform: translate3d(-50%, -50%, 0) scale(2.5);
 }
 
 .radio-pills {
@@ -1221,7 +1122,6 @@ input[type="radio"] {
 footer {
   background-color: $text-black;
   height: 348px;
-  // width: calc(1920px - (100vw - 100%) / 2); // fix horizontal scroll appearing
   width: calc(100% + (100vw - 100%));
   display: flex;
   flex-direction: column;
@@ -1917,7 +1817,6 @@ footer {
           ". ."
           ". ."
           ". .";
-        // gap: 10%;
         transform: translate(10px, 200px) scale(0.8);
 
         .fact-item-2 {
@@ -2065,330 +1964,3 @@ footer {
     }
   }
 }
-
-// // small phone size
-// @media all and (max-height: 320px) {
-//   #section4 {
-//     .content-left {
-//       h2, h4 {
-//         transform: translate(-150px, -270px);
-//       }
-//     }
-//     .content-right {
-//       img {
-//         transform: translate(250px, -150px) scale(0.3);
-//       }
-//     }
-
-//     .content-bottom {
-//       .fact-item {
-//         p:first-child {
-//           font-size: 18px !important;
-//         }
-
-//         p:nth-of-type(2) {
-//           font-size: 48px !important;
-
-//           width: 90vw;
-//           span {
-//             font-size: 18px !important;
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
-
-// tablet size
-// @media all and (max-width: 992px) {
-//   body {
-//     overflow-x: hidden;
-//   }
-
-//   #section1 {
-//     height: 558px;
-
-//     .content-left {
-//       padding-left: 96px;
-
-//       height: 784px;
-//       display: flex;
-//       gap: 10px;
-//       padding-top: 0;
-
-//       span {
-//         font-size: 28px;
-//         line-height: 42px;
-//         letter-spacing: 0.02em;
-//         width: 368px; // align text like in design
-//       }
-
-//       a, p {
-//         transform: translateY(-180px);
-//       }
-
-//       p {
-//         font-size: 20px;
-//         width: 368px;
-//       }
-
-//       a {
-//         width: 294px;
-//         height: 54px;
-//         font-size: 16px;
-//       }
-//     }
-
-//     .content-right {
-//       .c-img-h-full {
-//         height: 558px;
-//       }
-
-//       .js-slider {
-//         width: 496px;
-//         top: 328px;
-//         left: 495px;
-//         height: 558px;
-//       }
-//     }
-//   }
-
-//   #section2 {
-//     height: 452px;
-
-//     .content-left {
-//       background-size: 80% !important;
-//       background-position: 100% 52%;
-//       background-color: red;
-//     }
-
-//     .content-right {
-//       left: 42%;
-
-//       img {
-//         transform: scale(0.7) translate(-100px, 20px);
-//       }
-
-//       p {
-//         font-size: 14px;
-//         width: 368px;
-//       }
-//     }
-//   }
-
-//   #section3 {
-//     .content-right {
-//       background-position: center;
-//     }
-
-//     height: 850px;
-
-//     .content-left {
-//       p:first-child,  p:nth-child(2) {
-//         left: 90px;
-//         font-size: 26px;
-//         width: 368px; // align text like in design
-//         transform: translateY(-80px) translateX(-20px);
-//       }
-
-//       p:nth-child(2) {
-//         font-size: 16px;
-//         font-weight: lighter;
-//         line-height: 24px;
-//         letter-spacing: 0.02em;
-//         top: 190px;
-//       }
-
-//       form {
-//         left: 70px;
-//         top: 200px;
-
-//         input[type=text]:nth-of-type(1) {
-//           width: 176px !important;
-//         }
-
-//         input[type=text]:nth-of-type(2) {
-//           width: 176px !important;
-//           right: 187px;
-//         }
-
-//         input[name=lname], input[type=text]:nth-of-type(1) + label { // pavarde field
-//           position: absolute;
-//           left: 190px;
-//         }
-
-//         input[type=text] {
-//           width: 368px;
-//         }
-
-//         ul {
-//           width: 400px;
-//         }
-
-//         label[for=accept] {
-//           font-size: 13px;
-//           top: 455px;
-//         }
-
-//         input[type=submit] {
-//           font-size: 16px;
-//           font-family: 'Nunito Sans', sans-serif;
-//           width: 280px;
-//           height: 45px;
-//           top: 510px;
-//         }
-//       }
-//     }
-//   }
-
-//   #section4 {
-//     padding: 0;
-//     height: 499px;
-
-//     .content-left {
-//       h2 {
-//         position: absolute;
-//         left: -10px;
-//         top: -10px;
-//         font-size: 34px;
-//         margin-left: 30px;
-//       }
-
-//       h4 {
-//         font-size: 16px;
-//         font-weight: normal;
-//         line-height: 20px;
-//         letter-spacing: 0.02em;
-//         margin-left: 30px;
-//         width: 506px;
-//       }
-//     }
-
-//     .content-right {
-//       transform: translateX(150px);
-//     }
-
-//     .content-bottom {
-//       width: 100%;
-//       .fact-list {
-//         position: absolute;
-//         gap: 70px;
-//         left: -340px;
-//         height: 140px;
-
-//         .fact-item {
-//           transform: translateY(-350px) translateX(-510px);
-//           width: 200px;
-//           display: flex;
-//           flex-wrap: wrap;
-
-//           p:first-child {
-//             font-size: 16px;
-//           }
-
-//           p {
-//             font-size: 38px;
-//             transform: translateY(50px);
-
-//             span {
-//               font-size: 15px;
-//               transform: translateY(10px);
-//               width: 200px;
-//             }
-//           }
-//         }
-//       }
-//     }
-
-//     * {
-//     transform: scale(0.9) translateY(-40px);
-//     }
-//   }
-
-//   #section5 {
-//     height: 991px;
-
-//     .content-left {
-//       height: 911px;
-//       background-size: 568px 815px;
-//       background-position: 0 0;
-//       top: 88px;
-//     }
-
-//     .content-right {
-//       height: 911px;
-
-//       top: 100px;
-//       left: 600px;
-//       display: flex;
-
-//       a {
-//         top: 740px;
-//       }
-
-//       h3 {
-//         font-size: 34px;
-//       }
-
-//       .fact-item-2 {
-//         h2 {
-//           font-size: 32px;
-//         }
-
-//         p {
-//           font-size: 16px;
-//         }
-
-//         span {
-//           font-size: 16px;
-//         }
-//       }
-//     }
-//   }
-
-//   #section6 {
-//     width: 100%;
-//     p:first-child {
-//       font-size: 38px;
-//     }
-
-//     p:nth-child(2) {
-//       font-size: 20px;
-//     }
-
-//     p:first-child, p:nth-child(2) {
-//       left: 110px;
-//     }
-
-//     ul {
-//       left: 270px;
-//     }
-
-//     input[type=checkbox] + label {
-//       font-size: 12px;
-//       color: red !important;
-//     }
-
-//     input[type=submit] {
-//       height: 54px;
-//       width: 294px;
-//       font-size: 16px;
-//       position: absolute;
-//       transform: translateX(-55%);
-//     }
-
-//     form {
-//       left: 650px !important;
-//       width: 85% !important;
-//       position: absolute !important;
-
-//       input[type=text] {
-//         width: 256px !important;
-//       }
-//     }
-//   }
-
-//   footer {
-//     width: 100vw;
-//   }
-// }
