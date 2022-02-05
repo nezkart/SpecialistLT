@@ -432,6 +432,7 @@ ul li {}
     background-color: pink;
     @extend %background-settings;
     background-position: 0 -56px;
+    background-position-y: bottom;
   }
 }
 
@@ -525,6 +526,7 @@ ul li {}
 
 #section5 {
   border-top: 4px solid #005098;
+  width: 100vw;
   height: 1362px;
 
   .content-left {
@@ -534,6 +536,7 @@ ul li {}
     width: 45%;
     position: absolute;
     top: 144px;
+    background-position-y: -100px;
   }
 
   .content-right {
@@ -1324,7 +1327,8 @@ footer {
 }
 
 // tablet size
-@media all and (max-width: 992px) {
+// @media all and (max-width: 992px) {
+@media all and (max-width: 1150px) {
 
   // checkbox positioning form 2
   ul+input {
@@ -1554,11 +1558,37 @@ footer {
       width: 120px;
       padding: 0;
     }
+
+    label {
+      white-space: nowrap;
+    }
+
+    form {
+      left: 5% !important;
+    }
+
+    ul {
+      li {
+        .radio-lbl {
+          // width: 100%;
+        }
+      }
+    }
   }
 
   footer {
     padding-left: 20px;
     padding-right: 20px;
+
+    .footer-contacts {
+      gap: 0px;
+      a {
+        font-size: 12px;
+        img {
+          transform: scale(0.5);
+        }
+      }
+    }
   }
 }
 
@@ -1800,7 +1830,7 @@ footer {
 
     .content-right {
       height: 1000px;
-      left: 0;
+      left: 40px;
 
       a {
         font-size: 16px;
@@ -1883,6 +1913,7 @@ footer {
     form {
       flex-direction: column;
       gap: 0;
+      left: 10% !important;
 
       p {
         transform: translate(-75px, 0px);
@@ -1900,7 +1931,7 @@ footer {
 
     p:first-child {
       font-size: 26px;
-      left: 0;
+      left: 5vw;
       top: 70px;
       width: 100vw !important;
       text-align: center;
@@ -1938,7 +1969,7 @@ footer {
       justify-content: center;
       width: 90vw;
       height: 40px;
-      left: 30%;
+      left: 35%;
       top: 520px;
     }
   }

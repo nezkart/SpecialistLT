@@ -500,6 +500,7 @@ ul {
   background-image: url(../Images/closeup-man.png);
   background-color: pink;
   background-position: 0 -56px;
+  background-position-y: bottom;
 }
 
 #section4 {
@@ -603,6 +604,7 @@ ul {
 
 #section5 {
   border-top: 4px solid #005098;
+  width: 100vw;
   height: 1362px;
 }
 
@@ -612,6 +614,7 @@ ul {
   width: 45%;
   position: absolute;
   top: 144px;
+  background-position-y: -100px;
 }
 
 #section5 .content-right {
@@ -1443,7 +1446,7 @@ footer a {
   }
 }
 
-@media all and (max-width: 992px) {
+@media all and (max-width: 1150px) {
   ul + input {
     -webkit-transform: translateY(-20px);
             transform: translateY(-20px);
@@ -1634,9 +1637,25 @@ footer a {
     width: 120px;
     padding: 0;
   }
+  #section6 label {
+    white-space: nowrap;
+  }
+  #section6 form {
+    left: 5% !important;
+  }
   footer {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  footer .footer-contacts {
+    gap: 0px;
+  }
+  footer .footer-contacts a {
+    font-size: 12px;
+  }
+  footer .footer-contacts a img {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
   }
 }
 
@@ -1837,7 +1856,7 @@ footer a {
   }
   #section5 .content-right {
     height: 1000px;
-    left: 0;
+    left: 40px;
   }
   #section5 .content-right a {
     font-size: 16px;
@@ -1920,6 +1939,7 @@ footer a {
         -ms-flex-direction: column;
             flex-direction: column;
     gap: 0;
+    left: 10% !important;
   }
   #section6 form p {
     -webkit-transform: translate(-75px, 0px);
@@ -1936,7 +1956,7 @@ footer a {
   }
   #section6 p:first-child {
     font-size: 26px;
-    left: 0;
+    left: 5vw;
     top: 70px;
     width: 100vw !important;
     text-align: center;
@@ -1979,7 +1999,7 @@ footer a {
             justify-content: center;
     width: 90vw;
     height: 40px;
-    left: 30%;
+    left: 35%;
     top: 520px;
   }
   footer {
