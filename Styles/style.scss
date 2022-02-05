@@ -1764,6 +1764,7 @@ footer {
 
       ul {
         width: 100vw;
+        
       }
 
 
@@ -1958,9 +1959,21 @@ footer {
     ul {
       display: flex;
       flex-direction: row;
+      flex-wrap: wrap;
       width: 100vw;
-      left: -70px !important;
-      top: 400px;
+      left: -75px !important;
+      top: 380px;
+      gap: 10px;
+      bottom: 10px;
+      align-content: flex-start;
+
+        li {
+          padding: 0;
+          .radio-lbl {
+            width: 42vw;
+            transform: translateY(85px); // workaround for pill radio button not being clickable on mobile
+          }
+        }
     }
 
     input[type=submit] {

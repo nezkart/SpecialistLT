@@ -1985,9 +1985,23 @@ footer a {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     width: 100vw;
-    left: -70px !important;
-    top: 400px;
+    left: -75px !important;
+    top: 380px;
+    gap: 10px;
+    bottom: 10px;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+  }
+  #section6 ul li {
+    padding: 0;
+  }
+  #section6 ul li .radio-lbl {
+    width: 42vw;
+    -webkit-transform: translateY(85px);
+            transform: translateY(85px);
   }
   #section6 input[type=submit] {
     font-size: 15px;
