@@ -1696,10 +1696,9 @@ footer a {
   .c-img-h-full {
     position: absolute;
     top: -200px;
-    min-width: 55vw;
-    min-height: 105%;
-    -webkit-transform: translate(10px, 10px);
-            transform: translate(10px, 10px);
+    -webkit-transform: translate(10px, 100px);
+            transform: translate(10px, 100px);
+    max-width: 100%;
   }
   ul + input {
     -webkit-transform: translateY(-20px);

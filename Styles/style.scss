@@ -1655,9 +1655,10 @@ footer {
     // height: 100%;
     // transform: translate3d(-50%, -50%, 0);
     // min-height: 100%;
-    min-width: 55vw; 
-    min-height: 105%;
-    transform: translate(10px, 10px);
+    // min-width: 55vw; 
+    // min-height: 105%;
+    transform: translate(10px, 100px);
+    max-width: 100%;
   }
   // checkbox positioning form 2
   ul+input {
