@@ -1610,6 +1610,15 @@ footer {
         height: 250px;
         width: 100vw;
         left: 0;
+
+        .js-slider_img {
+
+          .image-slide-logo {
+           transform: translateX(-50%) scale(0.5);
+           top: 150px;
+           max-height: 150px;
+          }
+        }
       }
     }
   }
@@ -1929,7 +1938,7 @@ footer {
       justify-content: center;
       width: 90vw;
       height: 40px;
-      left: 70px;
+      left: 30%;
       top: 520px;
     }
   }

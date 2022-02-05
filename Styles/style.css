@@ -1681,6 +1681,12 @@ footer a {
     width: 100vw;
     left: 0;
   }
+  #section1 .content-right .js-slider .js-slider_img .image-slide-logo {
+    -webkit-transform: translateX(-50%) scale(0.5);
+            transform: translateX(-50%) scale(0.5);
+    top: 150px;
+    max-height: 150px;
+  }
   #section2 {
     height: 650px;
   }
@@ -1973,7 +1979,7 @@ footer a {
             justify-content: center;
     width: 90vw;
     height: 40px;
-    left: 70px;
+    left: 30%;
     top: 520px;
   }
   footer {
