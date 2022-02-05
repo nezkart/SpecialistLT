@@ -1641,7 +1641,7 @@ footer {
       position: absolute !important;
       bottom: 50px;
       left: 50%;
-      transform: translateX(-50%);
+      transform: translateX(-50%) scale(0.6) !important;
     }
   }
 

@@ -1690,8 +1690,8 @@ footer a {
     position: absolute !important;
     bottom: 50px;
     left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    -webkit-transform: translateX(-50%) scale(0.6) !important;
+            transform: translateX(-50%) scale(0.6) !important;
   }
   .c-img-h-full {
     position: absolute;
