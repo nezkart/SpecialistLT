@@ -659,7 +659,7 @@ ul li {}
   ul+input {
     position: absolute;
     width: auto;
-    background-color: red;
+    // background-color: red;
     left: 5%;
     top: 147px !important;
   }
@@ -808,7 +808,7 @@ ul li {}
 
   form input[type=radio] {
     display: none;
-    background-color: red;
+    // background-color: red;
     height: 38px;
     width: 175px;
   }
@@ -886,7 +886,7 @@ ul li {}
 // checkbox positioning
 ul:nth-of-type(1)+input {
   position: absolute;
-  background-color: red;
+  // background-color: red;
   left: 0;
   top: 460px !important;
 }
@@ -902,7 +902,7 @@ ul:nth-of-type(1)+input {
 // checkbox positioning form 2
 ul+input {
   position: absolute;
-  background-color: red;
+  // background-color: red;
   left: 0 !important;
 }
 
@@ -953,7 +953,7 @@ input[type="radio"] {
   top: 67px;
   left: 49.2vw;
   margin: 0 auto;
-  background-color: red;
+  // background-color: red;
 }
 
 .js-slider_item {
