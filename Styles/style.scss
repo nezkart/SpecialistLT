@@ -1385,11 +1385,11 @@ footer {
   #section2 {
     .content-right {
       img {
-        transform: translateX(-130px) scale(0.7);
+        transform: translateX(-170px) scale(0.7);
       }
 
       p {
-        transform: translateX(-50px);
+        transform: translateX(-90px);
         font-size: 14px;
         width: 364px;
       }
@@ -1400,10 +1400,21 @@ footer {
     height: 770px;
 
     .content-left {
+      > * {
+        transform: translate(-10px, -50px);
+      }
+
+      .radio-lbl {
+        width: 140px;
+        white-space: nowrap;
+        font-size: 13px !important;
+      }
+
       p:first-child {
         font-size: 26px;
-        ;
         top: 50px;
+        // left: 30px;
+        width: 45vw;
       }
 
       p:nth-of-type(2) {
@@ -1443,6 +1454,10 @@ footer {
       form {
         top: 220px;
       }
+    }
+
+    .content-right {
+      width: 51vw;
     }
   }
 
@@ -1747,7 +1762,8 @@ footer {
   }
 
   #section3 {
-    height: 970px;
+    // height: 970px;
+    height: 1000px;
 
     .content-right {
       height: 181px;
@@ -1756,11 +1772,17 @@ footer {
     }
 
     .content-left {
+      > * {
+        transform: translateY(20px);
+      }
+
       p:first-child {
         font-size: 26px;
         top: 160px;
+        // left: 50px;
         left: 50px;
-        width: 288px;
+        // width: 288px;
+        width: 70vw;
         line-height: 30px;
         text-align: center;
       }
@@ -1981,19 +2003,22 @@ footer {
     }
 
     input[type=text] {
-      width: 90vw !important;
-      transform: translate(-150px, 10px);
+      width: 80vw !important;
+      transform: translate(-130px, -10px);
       font-size: 13px;
     }
 
     input[type=text]+label {
-      color: red !important;
     }
 
     form {
       flex-direction: column;
       gap: 0;
       left: 10% !important;
+
+      .form-item label {
+        transform: translate(-130px, -10px);
+      }
 
       p {
         transform: translate(-75px, 0px);
@@ -2014,17 +2039,17 @@ footer {
       // left: 5vw;
       justify-content: center;
       width: 100vw;
-      left: 0;
+      left: 10px;
       top: 70px;
-      width: 100vw !important;
+      width: 90vw !important;
       text-align: center;
     }
 
     p:nth-of-type(2) {
       font-size: 16px;
-      width: 100vw !important;
+      width: 80vw !important;
       text-align: center;
-      left: 0;
+      left: 35px;
     }
 
     label {

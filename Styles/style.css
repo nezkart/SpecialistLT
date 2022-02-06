@@ -1484,21 +1484,31 @@ footer a {
     height: 668px;
   }
   #section2 .content-right img {
-    -webkit-transform: translateX(-130px) scale(0.7);
-            transform: translateX(-130px) scale(0.7);
+    -webkit-transform: translateX(-170px) scale(0.7);
+            transform: translateX(-170px) scale(0.7);
   }
   #section2 .content-right p {
-    -webkit-transform: translateX(-50px);
-            transform: translateX(-50px);
+    -webkit-transform: translateX(-90px);
+            transform: translateX(-90px);
     font-size: 14px;
     width: 364px;
   }
   #section3 {
     height: 770px;
   }
+  #section3 .content-left > * {
+    -webkit-transform: translate(-10px, -50px);
+            transform: translate(-10px, -50px);
+  }
+  #section3 .content-left .radio-lbl {
+    width: 140px;
+    white-space: nowrap;
+    font-size: 13px !important;
+  }
   #section3 .content-left p:first-child {
     font-size: 26px;
     top: 50px;
+    width: 45vw;
   }
   #section3 .content-left p:nth-of-type(2) {
     font-size: 16px;
@@ -1536,6 +1546,9 @@ footer a {
   }
   #section3 .content-left form {
     top: 220px;
+  }
+  #section3 .content-right {
+    width: 51vw;
   }
   #section4 {
     height: 550px !important;
@@ -1773,18 +1786,22 @@ footer a {
             transform: translateY(-158px);
   }
   #section3 {
-    height: 970px;
+    height: 1000px;
   }
   #section3 .content-right {
     height: 181px;
     left: 0;
     width: 100vw;
   }
+  #section3 .content-left > * {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
   #section3 .content-left p:first-child {
     font-size: 26px;
     top: 160px;
     left: 50px;
-    width: 288px;
+    width: 70vw;
     line-height: 30px;
     text-align: center;
   }
@@ -1979,13 +1996,10 @@ footer a {
     white-space: normal;
   }
   #section6 input[type=text] {
-    width: 90vw !important;
-    -webkit-transform: translate(-150px, 10px);
-            transform: translate(-150px, 10px);
+    width: 80vw !important;
+    -webkit-transform: translate(-130px, -10px);
+            transform: translate(-130px, -10px);
     font-size: 13px;
-  }
-  #section6 input[type=text] + label {
-    color: red !important;
   }
   #section6 form {
     -webkit-box-orient: vertical;
@@ -1994,6 +2008,10 @@ footer a {
             flex-direction: column;
     gap: 0;
     left: 10% !important;
+  }
+  #section6 form .form-item label {
+    -webkit-transform: translate(-130px, -10px);
+            transform: translate(-130px, -10px);
   }
   #section6 form p {
     -webkit-transform: translate(-75px, 0px);
@@ -2014,16 +2032,16 @@ footer a {
         -ms-flex-pack: center;
             justify-content: center;
     width: 100vw;
-    left: 0;
+    left: 10px;
     top: 70px;
-    width: 100vw !important;
+    width: 90vw !important;
     text-align: center;
   }
   #section6 p:nth-of-type(2) {
     font-size: 16px;
-    width: 100vw !important;
+    width: 80vw !important;
     text-align: center;
-    left: 0;
+    left: 35px;
   }
   #section6 label {
     font-size: 14px;
