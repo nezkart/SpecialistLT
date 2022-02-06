@@ -1706,8 +1706,8 @@ footer a {
             transform: translateY(-20px);
   }
   input[type=checkbox] + label {
-    -webkit-transform: translate(5px, -20px);
-            transform: translate(5px, -20px);
+    -webkit-transform: translate(-50px, 330px) !important;
+            transform: translate(-50px, 330px) !important;
   }
   #section1 {
     margin-top: -150px;
@@ -1777,7 +1777,7 @@ footer a {
   #section3 .content-left p:first-child {
     font-size: 26px;
     top: 160px;
-    left: 10px;
+    left: 80px;
     width: 288px;
     line-height: 30px;
     text-align: center;
@@ -1856,15 +1856,15 @@ footer a {
   }
   #section4 .content-left h2 {
     font-size: 28px;
-    -webkit-transform: translate(-150px, -300px);
-            transform: translate(-150px, -300px);
+    -webkit-transform: translate(-130px, -300px);
+            transform: translate(-130px, -300px);
     width: 100vw;
   }
   #section4 .content-left h4 {
-    -webkit-transform: translate(-150px, -300px);
-            transform: translate(-150px, -300px);
+    -webkit-transform: translate(-130px, -300px);
+            transform: translate(-130px, -300px);
     font-size: 13px;
-    width: 90% !important;
+    width: 85% !important;
     line-height: 20px;
   }
   #section4 .content-bottom .fact-list {
@@ -1887,8 +1887,12 @@ footer a {
   #section4 .content-bottom .fact-list .fact-item p:nth-child(2) span {
     font-size: 14px;
   }
+  #section5 > *:not(:first-child) {
+    -webkit-transform: translateY(-40px);
+            transform: translateY(-40px);
+  }
   #section5 {
-    height: 1000px;
+    height: 1100px;
   }
   #section5 .content-left {
     height: 200px;
@@ -1913,8 +1917,8 @@ footer a {
         -ms-flex-align: center;
             align-items: center;
     height: 60px;
-    -webkit-transform: translateX(140px);
-            transform: translateX(140px);
+    -webkit-transform: translate(160px, 20px) !important;
+            transform: translate(160px, 20px) !important;
   }
   #section5 .content-right h3 {
     font-size: 34px;
@@ -1997,7 +2001,11 @@ footer a {
   }
   #section6 p:first-child {
     font-size: 26px;
-    left: 10vw;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100vw;
+    left: 0;
     top: 70px;
     width: 100vw !important;
     text-align: center;

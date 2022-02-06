@@ -1668,7 +1668,7 @@ footer {
 
   // checkbox label positioning form 2
   input[type=checkbox]+label {
-    transform: translate(5px, -20px);
+    transform: translate(-50px, 330px) !important;
   }
 
   #section1 {
@@ -1753,7 +1753,7 @@ footer {
       p:first-child {
         font-size: 26px;
         top: 160px;
-        left: 10px;
+        left: 80px;
         width: 288px;
         line-height: 30px;
         text-align: center;
@@ -1848,14 +1848,14 @@ footer {
     .content-left {
       h2 {
         font-size: 28px;
-        transform: translate(-150px, -300px);
+        transform: translate(-130px, -300px);
         width: 100vw;
       }
 
       h4 {
-        transform: translate(-150px, -300px);
+        transform: translate(-130px, -300px);
         font-size: 13px;
-        width: 90% !important;
+        width: 85% !important;
         line-height: 20px;
       }
     }
@@ -1885,8 +1885,12 @@ footer {
     }
   }
 
+  #section5 > *:not(:first-child) {
+    transform: translateY(-40px); // move all items except the first photo
+  }
+
   #section5 {
-    height: 1000px;
+    height: 1100px;
 
     .content-left {
       height: 200px;
@@ -1906,7 +1910,7 @@ footer {
         font-weight: bold;
         align-items: center;
         height: 60px;
-        transform: translateX(140px);
+        transform: translate(160px, 20px) !important;
       }
 
       h3 {
@@ -1998,7 +2002,9 @@ footer {
     p:first-child {
       font-size: 26px;
       // left: 5vw;
-      left: 10vw;
+      justify-content: center;
+      width: 100vw;
+      left: 0;
       top: 70px;
       width: 100vw !important;
       text-align: center;
