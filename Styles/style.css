@@ -1709,6 +1709,12 @@ footer a {
     -webkit-transform: translate(-50px, 330px) !important;
             transform: translate(-50px, 330px) !important;
   }
+  #checkbox-lbl-1 {
+    -webkit-transform: unset !important;
+            transform: unset !important;
+    top: 480px !important;
+    right: 10px !important;
+  }
   #section1 {
     margin-top: -150px;
     height: 797px;
@@ -1717,23 +1723,23 @@ footer a {
     line-height: 34px;
     font-size: 30px;
     width: 250px;
-    -webkit-transform: translate(-85px, 85px);
-            transform: translate(-85px, 85px);
+    -webkit-transform: translate(-55px, 105px);
+            transform: translate(-55px, 105px);
   }
   #section1 .content-left p {
     line-height: 20px;
     font-size: 22px;
     width: 264px;
-    -webkit-transform: translate(-78px, -75px);
-            transform: translate(-78px, -75px);
+    -webkit-transform: translate(-48px, -55px);
+            transform: translate(-48px, -55px);
   }
   #section1 .content-left a {
     font-size: 16px;
     width: 294px;
     height: 40px;
     font-weight: bold;
-    -webkit-transform: translate(-75px, -110px);
-            transform: translate(-75px, -110px);
+    -webkit-transform: translate(-40px, -90px);
+            transform: translate(-40px, -90px);
   }
   #section1 .content-right .js-slider {
     top: 314px;
@@ -1777,7 +1783,7 @@ footer a {
   #section3 .content-left p:first-child {
     font-size: 26px;
     top: 160px;
-    left: 80px;
+    left: 50px;
     width: 288px;
     line-height: 30px;
     text-align: center;
@@ -1968,6 +1974,9 @@ footer a {
   #section6 input[type=checkbox] + label {
     -webkit-transform: translate(-50px, 320px);
             transform: translate(-50px, 320px);
+  }
+  #section6 label[for=accept-2] {
+    white-space: normal;
   }
   #section6 input[type=text] {
     width: 90vw !important;

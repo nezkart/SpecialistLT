@@ -1671,6 +1671,12 @@ footer {
     transform: translate(-50px, 330px) !important;
   }
 
+  #checkbox-lbl-1 {
+    transform: unset !important;
+    top: 480px !important;
+    right: 10px !important;
+  }
+
   #section1 {
     margin-top: -150px;
     height: 797px;
@@ -1680,14 +1686,14 @@ footer {
         line-height: 34px;
         font-size: 30px;
         width: 250px;
-        transform: translate(-85px, 85px);
+        transform: translate(-55px, 105px);
       }
 
       p {
         line-height: 20px;
         font-size: 22px;
         width: 264px;
-        transform: translate(-78px, -75px);
+        transform: translate(-48px, -55px);
       }
 
       a {
@@ -1695,7 +1701,7 @@ footer {
         width: 294px;
         height: 40px;
         font-weight: bold;
-        transform: translate(-75px, -110px);
+        transform: translate(-40px, -90px);
       }
     }
 
@@ -1753,7 +1759,7 @@ footer {
       p:first-child {
         font-size: 26px;
         top: 160px;
-        left: 80px;
+        left: 50px;
         width: 288px;
         line-height: 30px;
         text-align: center;
@@ -1968,6 +1974,10 @@ footer {
 
     input[type=checkbox]+label {
       transform: translate(-50px, 320px);
+    }
+
+    label[for=accept-2] {
+      white-space: normal;
     }
 
     input[type=text] {
