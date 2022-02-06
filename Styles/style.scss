@@ -423,10 +423,11 @@ ul li {}
 
   .content-right {
     position: absolute;
-    right: 0;
+    right: 0px;
     top: 0;
     height: 100%;
-    width: 50%;
+    width: 50.3%;
+    // width: calc(50% - (100vw - 100%));
     background-image: url(../Images/closeup-man.png);
     background-color: pink;
     @extend %background-settings;
@@ -1457,7 +1458,7 @@ footer {
     }
 
     .content-right {
-      width: 51vw;
+      width: 50%;
     }
   }
 
@@ -1716,7 +1717,8 @@ footer {
         width: 294px;
         height: 40px;
         font-weight: bold;
-        transform: translate(-40px, -90px);
+        // transform: translate(-40px, -90px);
+        transform: translate(-60px, -90px);
       }
     }
 
@@ -1853,14 +1855,13 @@ footer {
       .radio-lbl {
         font-size: 13px !important;
         margin: -5px -8px !important;
+        // width: 190px;
+        width: 160px;
       }
 
       ul {
-        width: 100vw;
-        
+        width: 90vw;
       }
-
-
     }
   }
 
@@ -1890,8 +1891,11 @@ footer {
 
     .content-bottom {
       .fact-list {
+        transform: scale(1.3);
+        left: 100px;
+        // top: 365px;
+        top: 420px;
         gap: 5px;
-        top: 365px;
         flex-direction: column;
 
         .fact-item {
